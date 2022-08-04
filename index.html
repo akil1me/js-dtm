@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>DTM test javoblari</title>
+</head>
+
+<body>
+  <main>
+    <section class="test">
+      <div class="test__container container">
+        <div class="test__inner">
+          <h1 class="test__title fs-3 mb-1 mb-md-2">TATU ga kirish imtixonlari javoblari</h1>
+          <p class="text__ball text-center fs-6">max ball = 189</p>
+          <form class="test__form form" autocomplete="off">
+            <div class="form__content row flex-column flex-md-row">
+              <input class="form__input input-group-text col" type="number" aria-label="input exam ball"
+                placeholder="Ballni kiriting" required>
+
+              <select class="form__select form-select col w-md-25 d-inline-block ms-md-2 mt-2 mt-md-0"
+                aria-label="Default select example">
+                <option selected hidden>Yo`nalishni tanlang</option>
+                <option value="125">Dasturiy injenering</option>
+                <option value="90">Mobil aloqa</option>
+                <option value="150">Elektron Tijorat</option>
+                <option value="101">Telekomunikatsiya</option>
+                <option value="112">Kompyuter injenering</option>
+                <option value="86">Televison</option>
+                <option value="130">Axborot hafsizligi</option>
+                <option value="76">Pochta</option>
+              </select>
+            </div>
+
+            <div class="form__button-box text-lg-end">
+              <button class="form__button btn " type="submit">Xisoblash</button>
+            </div>
+          </form>
+
+          <div class="test__output output mt-3">
+            <output class="output__result"></output>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
